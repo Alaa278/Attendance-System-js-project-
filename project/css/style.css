@@ -1,0 +1,257 @@
+body
+{
+    color:  rgb(51, 70, 116) ;
+    background-color:rgb(241, 244, 248);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+
+}
+
+.home,.attendance
+{
+    background-color: rgb(219, 224, 235);
+    border-radius: 20px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    overflow: hidden;   
+}
+
+ .btn
+{
+    border: 2px solid rgb(51, 70, 116) ;
+    color:rgb(51, 70, 116)  !important ;
+}
+.btn:hover , .attendance .badge:hover
+{
+    background-color:rgb(51, 70, 116) ;
+    color:rgb(240, 243, 250) !important ;   
+}
+
+ .btn:active,
+ .btn:focus,
+ .btn.active
+  {
+   outline: 0;
+   -webkit-box-shadow: none;
+   box-shadow: none;
+ }
+
+ /* -------------- pop up -----------------------*/
+ 
+.box_container , .box_container2
+{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color:rgba(0, 0, 0, 0.66) ;
+    transform: scale(0,0);
+}
+.box_item , .box_item2
+{
+    width: 60%;
+    border-radius: 30px;
+    background-color: rgb(230, 233, 240);
+    position: relative;
+    transform: scale(0,0);
+    transition: transform 2s;
+    overflow: hidden;
+}
+.box_item section
+{
+    display: none;
+    
+}
+#close
+{
+    position: absolute;
+     top: 0rem;
+     right: 0rem;  
+}
+.box_item i
+{
+    font-size: 20px;
+    cursor: pointer;
+}
+/* ---------------------- end of pop up --------------------- */
+/* ----------------------  formReg  -------------------------- */
+
+.box_item form small , .box_item2 form small{
+
+    color:rgb(243, 76, 76) !important;
+}
+.myshadow
+{
+    box-shadow: none !important;
+    border: 2px solid rgb(243, 76, 76) !important;
+}
+/*     Attendance page style     */
+.attendance
+{
+    background-color: rgb(230, 233, 240);
+  
+}
+.attendance h4
+{
+   font-size:19px ;
+   color: rgb(41, 97, 230);
+}
+.attendance .box_container2,.box_item2
+{
+    transform: scale(1,1);
+}
+.attendance .box_item2
+{
+    border-radius: 15px;
+}
+.attendance span
+{
+    font-size: 18px;
+    color:  rgb(88, 118, 189);
+}
+.attendance .header
+{
+    background-color: rgb(241, 244, 248);
+    border-radius: 25px;
+  
+}
+.attendance .badge
+{
+   color: rgb(51, 70, 116);
+   border: 2px solid rgb(51, 70, 116) ;
+    padding: 10px;
+    font-size: 15px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.bdgeStyle
+{
+    background-color:rgb(51, 70, 116) ;
+    color:rgb(240, 243, 250) !important ;  
+}
+.attendance .daily, .monthly, .adbage
+{
+    text-align:start;
+    padding-left: 20px;
+  
+}
+.hr2
+{
+    text-align:start;
+    
+    width: 40%;
+    margin-block-start: 20px;
+    margin-block-end: 0;
+    margin-inline-start: 20px;
+    margin-inline-end: 0;
+}
+.attendance .monthly
+{
+    display: none;
+}
+
+/*////////////// admin page //////////////////*/
+
+
+.admin .header h3
+{
+    display: inline;
+    padding: 10px;
+    font-size: 24px;
+
+}
+.admin .badge
+{
+    padding: 10px 14px;
+    border-radius: 0px;
+    font-size: 13px;
+    border: solid 2px rgb(35, 43, 63) ;
+    color: rgb(35, 43, 63);
+    cursor: pointer;
+}
+.admin .badge:hover
+{
+background-color: rgb(35, 43, 63);
+color: white;   
+}
+.tableStyle
+{
+background-color: rgb(35, 43, 63);
+color: white !important ; 
+}
+.admin table
+{
+  display: none;
+  text-align: center;
+ 
+    
+}
+
+.admin #allEmp
+{
+    display: table;
+}
+.table-dark td, .table-dark th, .table-dark thead th {
+    border-color: rgb(35, 43, 63);
+   background-color: rgb(35, 43, 63);;
+}
+
+@media (max-width :991px)
+{
+    body
+    {
+        font-size: 14px;
+       
+
+    }
+    .home
+    {
+        border-radius: 7px;
+    }
+    h4,h3
+    {
+        font-size: 18px;
+    }
+    .btn
+    {
+        font-size: 14px;
+    }
+    .attendance span ,.header 
+    {
+        font-size: 14px;
+    }
+    .attendance h4
+    {
+        font-size:17px
+    }
+    .attendance .badge
+    {
+        font-size: 12px;
+    }
+    .attendance .header
+{
+   padding: 5px;
+  
+}
+.admin table
+{
+    font-size: 12px;
+}
+.admin .badge
+{
+    font-size: 12px;   
+}
+.admin .header h3
+{
+    font-size: 19px;
+}
+input,
+input::-webkit-input-placeholder {
+    font-size: 13px;
+    line-height: 3;
+}
+}

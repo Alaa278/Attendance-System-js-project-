@@ -1,0 +1,116 @@
+{
+  "employees": [
+    {
+      "username": "_opgo4jg7r",
+      "password": "zuNMwOT3",
+      "firstname": "alaa",
+      "lastname": "mohamed",
+      "address": "tanta",
+      "email": "alaaelbehairy12@gmail.com",
+      "age": "23",
+      "attendance": [],
+      "late": [],
+      "absent": [
+        "2/10/2021, 12:30:13 PM",
+        "2/13/2021, 3:55:19 AM"
+      ],
+      "id": 1
+    },
+    {
+      "username": "_orz7zyxv8",
+      "password": "sSDeehxF",
+      "firstname": "sara",
+      "lastname": "abdo",
+      "address": "alex",
+      "email": "alaa@gmail.com",
+      "age": "33",
+      "attendance": [],
+      "late": [],
+      "absent": [
+        "2/10/2021, 1:10:58 PM"
+      ],
+      "id": 2
+    },
+    {
+      "username": "_aq3ksxr2o",
+      "password": "A6cbiUhz",
+      "firstname": "loly",
+      "lastname": "mohamed",
+      "address": "tanta",
+      "email": "alaaelbehairy12@gmail.com",
+      "age": "22",
+      "attendance": [],
+      "late": [],
+      "absent": [
+        "2/10/2021, 3:42:34 PM",
+        "2/11/2021, 6:40:06 AM"
+      ],
+      "id": 3
+    },
+    {
+      "username": "_hexayrhja",
+      "password": "PrOVD23E",
+      "firstname": "shimaa",
+      "lastname": "abdo",
+      "address": "tanta",
+      "email": "shimaa.safwat112@gmail.com",
+      "age": "33",
+      "attendance": [],
+      "late": [],
+      "absent": [
+        "2/11/2021, 2:37:15 AM",
+        "2/11/2021, 2:40:42 AM",
+        "2/11/2021, 7:03:41 AM"
+      ],
+      "id": 4
+    },
+    {
+      "username": "_aeyfw4019",
+      "password": "V0EkB733",
+      "firstname": "mona",
+      "lastname": "Ahmed",
+      "address": "alex",
+      "email": "alaaelbehairy12@gmail.com",
+      "age": "33",
+      "attendance": [],
+      "late": [],
+      "absent": [
+        "2/13/2021, 2:53:02 AM"
+      ],
+      "excuse": [],
+      "id": 5
+    },
+    {
+      "username": "_001bps4q8",
+      "password": "hgm1rpN9",
+      "firstname": "nasr",
+      "lastname": "kassem",
+      "address": "alex",
+      "email": "engnasr@yahoo.com",
+      "age": "33",
+      "attendance": [],
+      "late": [],
+      "absent": [
+        "2/13/2021, 4:00:02 AM"
+      ],
+      "excuse": [],
+      "id": 6
+    },
+    {
+      "username": "_qngl6wl6q",
+      "password": "6Uuq4OQl",
+      "firstname": "alaa",
+      "lastname": "mohamed",
+      "address": "tanta",
+      "email": "alaaelbehairy12@gmail.com",
+      "age": "44",
+      "attendance": [],
+      "late": [],
+      "absent": [
+        "2/13/2021, 4:36:32 AM"
+      ],
+      "excuse": [],
+      "id": 7
+    }
+  ]
+}
